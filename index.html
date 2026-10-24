@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI-Cademy: From Learning to Measurable Capability.">
+  <title>AI-Cademy | From Learning to Measurable Capability</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Tab controllers: hidden radios MUST come before header/main/footer (see README) -->
+<input type="radio" name="tab" id="tab-home" class="tab-radio" checked aria-label="Home">
+<input type="radio" name="tab" id="tab-discovery" class="tab-radio" aria-label="Direction Discovery">
+<input type="radio" name="tab" id="tab-tracks" class="tab-radio" aria-label="Capability Tracks">
+<input type="radio" name="tab" id="tab-dashboard" class="tab-radio" aria-label="Readiness Dashboard">
+<input type="radio" name="tab" id="tab-tutor" class="tab-radio" aria-label="AI Tutor">
+
+<header class="site-nav">
+  <nav class="container nav-wrap" aria-label="Main navigation">
+    <label for="tab-home" class="brand" aria-label="AI-Cademy home"><img src="logo-icon.png" alt="" width="54" height="40"><span class="brand-text"><b>AI</b>-Cademy</span></label>
+    <input type="checkbox" id="nav-toggle" class="nav-check" aria-label="Toggle menu">
+    <label for="nav-toggle" class="nav-burger" aria-hidden="true"><i class="bi bi-list"></i></label>
+    <ul class="nav-links">
+      <li><label for="tab-home" class="nav-tab"><i class="bi bi-house"></i> Home</label></li>
+      <li><label for="tab-discovery" class="nav-tab"><i class="bi bi-compass"></i> Direction Discovery</label></li>
+      <li><label for="tab-tracks" class="nav-tab"><i class="bi bi-diagram-3"></i> Capability Tracks</label></li>
+      <li><label for="tab-dashboard" class="nav-tab"><i class="bi bi-speedometer2"></i> Readiness Dashboard</label></li>
+      <li><label for="tab-tutor" class="nav-tab nav-ai"><i class="bi bi-stars"></i> AI Tutor</label></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+<!-- TAB 1: HOME -->
+<section class="panel" id="home" aria-label="Home">
+  <div class="hero">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <span class="pill-badge">End-to-end capability engineering</span>
+          <h1 class="hero-title">Bridge the Gap Between Learning and Earning.</h1>
+          <p class="lead-text">Stop following random roadmaps. AI-Cademy tracks your real ability, provides structured capability formation, and generates proof of your job readiness.</p>
+          <label for="tab-discovery" class="btn btn-brand btn-lg">Start Discovery <i class="bi bi-arrow-right"></i></label>
+          <label for="tab-tutor" class="btn btn-outline-brand btn-lg ms-lg-2 mt-2 mt-lg-0"><i class="bi bi-stars"></i> Ask the AI Tutor</label>
+        </div>
+        <div class="col-lg-6">
+          <div class="hero-art" aria-hidden="true">
+            <span class="blob blob-1"></span><span class="blob blob-2"></span>
+            <img src="logo-icon.png" alt="" class="hero-logo" width="150" height="112">
+            <span class="line l1"></span><span class="line l2"></span><span class="line l3"></span>
+            <span class="node n1"><i class="bi bi-code-slash"></i></span>
+            <span class="node n2"><i class="bi bi-palette"></i></span>
+            <span class="node n3"><i class="bi bi-bar-chart"></i></span>
+            <div class="twin-card">
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <div class="twin-avatar"><i class="bi bi-person-fill"></i></div>
+                <div><strong>Digital Twin</strong><div class="small muted">Student capability profile</div></div>
+              </div>
+              <div class="d-flex justify-content-between small fw-semibold"><span>Job Readiness Score</span><span class="score">85%</span></div>
+              <div class="progress my-2"><div class="progress-bar" style="width:85%"></div></div>
+              <div class="d-flex flex-wrap gap-2"><span class="mini-tag">HTML/CSS</span><span class="mini-tag">Responsive UI</span><span class="mini-tag">Git</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container pb-5">
+    <div class="row g-4">
+      <div class="col-md-4"><div class="card-ui info h-100"><div class="icon-box warn"><i class="bi bi-exclamation-triangle"></i></div>
+        <h3>The Measurement Gap</h3><p>Courses end with a certificate, but nobody measures what you can actually do. Employers can’t see real ability.</p></div></div>
+      <div class="col-md-4"><div class="card-ui info h-100"><div class="icon-box"><i class="bi bi-diagram-2"></i></div>
+        <h3>Unified Ecosystem</h3><p>One continuous system that tracks ability, guides preparation, and engineers job readiness in a single place.</p></div></div>
+      <div class="col-md-4"><div class="card-ui info h-100"><div class="icon-box"><i class="bi bi-lightning-charge"></i></div>
+        <h3>10x Faster Skill-to-Job Matching</h3><p>Verified proof of capability lets students and employers connect on evidence instead of guesswork.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TAB 2: DIRECTION DISCOVERY -->
+<section class="panel" id="discovery" aria-label="Direction Discovery">
+  <div class="container py-5">
+    <h2 class="section-title text-center">Discover Your Best-Fit Role</h2>
+    <p class="muted text-center mx-auto sub">Pick what energizes you. This is a visual demo of the assessment.</p>
+    <div class="row g-4 mt-2 justify-content-center">
+      <div class="col-lg-6">
+        <div class="card-ui p-4 h-100">
+          <h3 class="h5 mb-3">What are your core interests?</h3>
+          <div class="d-flex flex-wrap gap-2" role="group" aria-label="Core interests">
+            <input type="checkbox" id="i1" class="pick" checked><label for="i1" class="pick-pill"><i class="bi bi-puzzle"></i> Logic</label>
+            <input type="checkbox" id="i2" class="pick" checked><label for="i2" class="pick-pill"><i class="bi bi-palette"></i> Design</label>
+            <input type="checkbox" id="i3" class="pick"><label for="i3" class="pick-pill"><i class="bi bi-database"></i> Data</label>
+            <input type="checkbox" id="i4" class="pick"><label for="i4" class="pick-pill"><i class="bi bi-people"></i> Management</label>
+          </div>
+          <p class="muted small mt-4 mb-0">Selections change appearance only. They don’t change the sample result.</p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card-ui result p-4 h-100">
+          <span class="cat-badge">Recommended Role</span>
+          <h3 class="mt-3"><i class="bi bi-window-stack"></i> Frontend Engineer</h3>
+          <p><strong>Role expectations:</strong> build responsive, accessible interfaces, turn designs into working code, and collaborate with designers and backend teams.</p>
+          <p><strong>Market demand:</strong> consistently high across startups and large companies, with strong entry-level hiring.</p>
+          <div class="d-flex justify-content-between small fw-semibold"><span>Match with your interests</span><span class="score">92%</span></div>
+          <div class="progress mt-1 mb-3"><div class="progress-bar" style="width:92%"></div></div>
+          <div class="ai-note"><i class="bi bi-stars"></i> <span>AI match: based on your picks, this role fits you best.</span></div>
+          <div class="d-flex flex-wrap gap-2"><label for="tab-tracks" class="btn btn-brand">See Capability Tracks</label>
+          <label for="tab-tutor" class="btn btn-outline-brand"><i class="bi bi-stars"></i> Ask the AI Tutor</label></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TAB 3: CAPABILITY TRACKS -->
+<section class="panel" id="tracks" aria-label="Capability Tracks">
+  <div class="container py-5">
+    <h2 class="section-title text-center">Capability Formation &amp; Professional Prep</h2>
+    <div class="ai-banner"><i class="bi bi-stars"></i><span>Not sure where to start? Ask the AI Tutor to suggest a track.</span><label for="tab-tutor" class="btn btn-brand btn-sm">Ask the AI Tutor</label></div>
+    <div class="row g-4">
+      <div class="col-sm-6 col-lg-3"><article class="card-ui track h-100">
+        <div class="thumb t1"><i class="bi bi-code-slash"></i></div>
+        <div class="body"><span class="cat-badge">Tech</span><h3>Frontend Engineering</h3>
+          <p class="daily"><i class="bi bi-calendar-check"></i> Daily Practice</p>
+          <p>Daily practice, weekly tests and mini projects.</p>
+          <a href="#tracks" class="text-link">Start Execution <i class="bi bi-arrow-right"></i></a></div></article></div>
+      <div class="col-sm-6 col-lg-3"><article class="card-ui track h-100">
+        <div class="thumb t2"><i class="bi bi-vector-pen"></i></div>
+        <div class="body"><span class="cat-badge">Design</span><h3>UI/UX Architecture</h3>
+          <p class="daily"><i class="bi bi-calendar-check"></i> Daily Practice</p>
+          <p>Wireframing and real projects.</p>
+          <a href="#tracks" class="text-link">Start Execution <i class="bi bi-arrow-right"></i></a></div></article></div>
+      <div class="col-sm-6 col-lg-3"><article class="card-ui track h-100">
+        <div class="thumb t3"><i class="bi bi-graph-up-arrow"></i></div>
+        <div class="body"><span class="cat-badge">Data</span><h3>Data Analytics</h3>
+          <p class="daily"><i class="bi bi-calendar-check"></i> Daily Practice</p>
+          <p>Surprise assessments and data visualization.</p>
+          <a href="#tracks" class="text-link">Start Execution <i class="bi bi-arrow-right"></i></a></div></article></div>
+      <div class="col-sm-6 col-lg-3"><article class="card-ui track h-100">
+        <div class="thumb t4"><i class="bi bi-briefcase"></i></div>
+        <div class="body"><span class="cat-badge">Career</span><h3>Professional Preparation</h3>
+          <p class="daily"><i class="bi bi-calendar-check"></i> Daily Practice</p>
+          <p>Resume building, LinkedIn and interview prep.</p>
+          <a href="#tracks" class="text-link">Start Execution <i class="bi bi-arrow-right"></i></a></div></article></div>
+    </div>
+  </div>
+</section>
+
+<!-- TAB 4: READINESS DASHBOARD -->
+<section class="panel" id="dashboard" aria-label="Readiness Dashboard">
+  <div class="container py-5">
+    <h2 class="section-title text-center">Your Readiness Certification</h2>
+    <p class="muted text-center small">Static demo data.</p>
+    <div class="row g-4 mt-1">
+      <div class="col-lg-4"><div class="card-ui p-4 h-100 text-center">
+        <h3 class="h5">Capability Score</h3>
+        <div class="ring" role="img" aria-label="88 percent job ready"><div class="ring-in"><strong>88%</strong><span>Job Ready</span></div></div>
+        <p class="muted small mb-0">Based on verified projects and assessments.</p>
+      </div></div>
+      <div class="col-lg-5"><div class="card-ui p-4 h-100">
+        <h3 class="h5 mb-3">Execution Logs</h3>
+        <ul class="log list-unstyled mb-0">
+          <li><i class="bi bi-patch-check-fill"></i><span>E-commerce UI Clone</span><em>Verified</em></li>
+          <li><i class="bi bi-check-circle-fill"></i><span>API Integration Test</span><em>Passed</em></li>
+          <li><i class="bi bi-patch-check-fill"></i><span>Responsive Portfolio Page</span><em>Verified</em></li>
+          <li><i class="bi bi-check-circle-fill"></i><span>Weekly CSS Assessment</span><em>Passed</em></li>
+        </ul>
+      </div></div>
+      <div class="col-lg-3"><div class="card-ui p-4 h-100">
+        <h3 class="h5 mb-3">Proof Artifacts</h3>
+        <a href="#dashboard" class="proof"><i class="bi bi-person-badge"></i> Portfolio</a>
+        <a href="#dashboard" class="proof"><i class="bi bi-github"></i> GitHub Repository</a>
+        <p class="muted small mt-3 mb-0">Sample links for the prototype.</p>
+      </div></div>
+    </div>
+    <div class="ai-banner mt-4"><i class="bi bi-stars"></i><span><strong>AI Insight:</strong> You are about two verified projects away from 95%. Try a portfolio project next.</span><label for="tab-tutor" class="btn btn-brand btn-sm">Get project ideas</label></div>
+  </div>
+</section>
+
+<!-- TAB 5: AI TUTOR -->
+<section class="panel" id="tutor" aria-label="AI Tutor">
+  <div class="container py-5">
+    <h2 class="section-title text-center">Meet Your AI Tutor</h2>
+    <p class="muted text-center mx-auto sub">Stuck on a concept? Pick a question and see how the tutor answers.</p>
+    <div class="row justify-content-center mt-4"><div class="col-lg-8 col-xl-7">
+     <div class="chat" role="region" aria-label="AI Tutor demo">
+      <div class="chat-head">
+        <span class="av t-av big"><i class="bi bi-robot"></i></span>
+        <div><strong>AI-Cademy Tutor</strong><div class="small"><span class="live-dot"></span> Your learning companion</div></div>
+        <span class="demo-tag ms-auto">Demo</span>
+      </div>
+      <input type="radio" name="q" id="q1" class="tab-radio" checked aria-label="Explain HTML simply">
+      <input type="radio" name="q" id="q2" class="tab-radio" aria-label="What should I learn first?">
+      <input type="radio" name="q" id="q3" class="tab-radio" aria-label="What is responsive design?">
+      <input type="radio" name="q" id="q4" class="tab-radio" aria-label="Give me a project idea">
+      <div class="chat-body">
+      <div class="qa qa1">
+        <div class="msg student"><span class="av s-av"><i class="bi bi-person-fill"></i></span><div class="bubble">Can you explain HTML in simple words?</div></div>
+        <div class="msg tutor"><span class="av t-av"><i class="bi bi-robot"></i></span><div class="bubble">Of course! HTML is the language used to structure a webpage. Think of it like the skeleton of a house. It defines headings, paragraphs, images, links, and other content. CSS then makes the webpage look attractive.</div></div>
+      </div>
+      <div class="qa qa2">
+        <div class="msg student"><span class="av s-av"><i class="bi bi-person-fill"></i></span><div class="bubble">What should I learn first to become a frontend developer?</div></div>
+        <div class="msg tutor"><span class="av t-av"><i class="bi bi-robot"></i></span><div class="bubble">Start with HTML to understand webpage structure, then learn CSS for styling and responsive layouts. After that, practice building small projects to strengthen your skills.</div></div>
+      </div>
+      <div class="qa qa3">
+        <div class="msg student"><span class="av s-av"><i class="bi bi-person-fill"></i></span><div class="bubble">What is responsive design?</div></div>
+        <div class="msg tutor"><span class="av t-av"><i class="bi bi-robot"></i></span><div class="bubble">Responsive design means a website adjusts its layout to fit any screen, from phones to desktops. It uses flexible grids, relative sizes and CSS media queries so content stays readable without sideways scrolling.</div></div>
+      </div>
+      <div class="qa qa4">
+        <div class="msg student"><span class="av s-av"><i class="bi bi-person-fill"></i></span><div class="bubble">Give me a beginner project idea.</div></div>
+        <div class="msg tutor"><span class="av t-av"><i class="bi bi-robot"></i></span><div class="bubble">Build a personal portfolio page with an About section, a project grid and a contact link. Make it responsive, then publish it free on Netlify. It becomes your first proof artifact on the Readiness Dashboard.</div></div>
+      </div>
+      </div>
+      <div class="chips" aria-label="Suggested questions">
+        <label for="q1" class="chip">Explain HTML simply</label>
+        <label for="q2" class="chip">What should I learn first?</label>
+        <label for="q3" class="chip">What is responsive design?</label>
+        <label for="q4" class="chip">Give me a project idea</label>
+        </div>
+      <div class="chat-input">
+        <label for="tutor-input" class="visually-hidden">Ask the tutor</label>
+        <input id="tutor-input" type="text" placeholder="Ask me anything about your track..." autocomplete="off">
+        <button type="button" class="send-btn" aria-label="Send"><i class="bi bi-send-fill"></i></button>
+      </div>
+      <p class="disclaimer"><i class="bi bi-info-circle"></i> Demo mode: sample responses only. Pick a suggested question above.</p>
+     </div>
+    </div></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-4 align-items-center">
+      <div class="col-md-5"><img src="logo.png" alt="AI-Cademy logo" class="foot-logo" width="110" height="81">
+        <p class="tag mb-0">The Direct Bridge to Career Success.</p></div>
+      <div class="col-md-7">
+        <ul class="list-inline mb-0 text-md-end">
+          <li class="list-inline-item"><label for="tab-tracks">Tech</label></li>
+          <li class="list-inline-item"><label for="tab-tracks">Design</label></li>
+          <li class="list-inline-item"><label for="tab-tracks">Data</label></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copy">© 2026 AI-Cademy. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
